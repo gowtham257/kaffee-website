@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Coffee Website</title>
+
+<!-- linking font awesome for icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet"/>
+<link href="styles.css" rel="stylesheet"/>
+<head>
+<body>
+
+<!-- Header / Navbar -->
+ <header>
+   <nav class="navbar section-content">
+    <a class="nav-logo" href="#"> 
+      <img class="logo-img" src= "images/coffee logo-1.avif" alt="Coffee">
+      <h2 class="logo-text">Kaffee</h2>
+    </a>
+      <ul class="nav-menu">
+        <button class="fas fa-times" id="menu-close-button"></button>
+         <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+         </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#About">About</a>
+         </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#Menu">Menu</a>
+         </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#Gallery">Gallery</a>
+         </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#Testimonials">Testimonials</a>
+         </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#Contact">Contact</a>
+         </li>
+     </ul>
+          <button class="fas fa-times" id="menu-open-button"></button>
+   </nav>
+ </header>
+<main>
+
+  <!-- hero section -->
+    <section class="hero-section">
+     <div class="section-content">
+      <div class="hero-details">
+       <h2 class="title">Best coffee</h2>
+       <h3 class="Subtitle">Taste our Specialized coffee and turn an ordinary day into something beautiful !</h3>
+       <p class="description">Welcome to our coffee paradise,Where every bean tells a story and evert cup sparks joy,<br>Several species of shrub of the genus coffee produce the berries from which coffee is extracted.</p>
+        <div class="buttons">
+         <a class="button order-now" href="#Menu">Order-Now</a>
+         <a class="button Contact-us" href="#Contact">Contact-Us</a>
+        </div>
+      </div>
+        <div class="hero-image-wrapper">
+         <img alt="Hero" class="hero-image" src="C:\Users\LENOVO\OneDrive\Documents\python\coffee website\images\coffee-hero-section.png"/>
+        </div>
+     </div>
+    </section>
+
+    <!-- About section -->
+      <section class="about-section" id="About">
+         <div class="section-content">
+          <div class="about_image-wrapper">
+            <img alt="About" class="about-image" src="C:\Users\LENOVO\OneDrive\Documents\python\coffee website\images\about-image.jpg"/>
+          </div>
+              <div class="about-details">
+               <h2 class="section-title"> About </h2>
+               <p class="text">At coffee House is mainly located in Hyderabad,Delhi,Mumbai we pride ourself on being a go-to destination for coffee lovers and conversation seekers alike.<br>we're dedicated to providing an exceptional coffee experience in a copy and inviting atmosphere,where guests can relax, unwind, and enjoy their time in comfort.</p>
+                  <div class="social-link-list">
+                    <a class="social-link" href="#Contact"><i class="fa-brands fa-facebook"></i></a>
+                    <a class="social-link" href="#Contact"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="social-link" href="#Contact"><i class="fa-brands fa-x-twitter"></i></a>
+                  </div>
+              </div>
+         </div>
+      </section>
+
+      <!--Menu Section -->
+        <section class="menu-section" id="Menu">
+            <h2 class="section-title">Menu</h2>
+            <div class="sextion-content">
+              <select id="currency-selector">
+                 <option value="INR">₹ INR</option>
+                 <option value="USD">$ USD</option>
+                 <option value="EUR">€ EUR</option>
+              </select>
+              <ul class="menu-list">
+               <li class="menu-item">
+                  <img alt="Hot beverages" class="menu-image" src="C:\Users\LENOVO\OneDrive\Documents\python\coffee website\images\hot-beverages.png"/>
+                  <h3 class="name">Hot Beverages</h3>
+                  <p class="text">Wide range of steaming Hot cofee to make you fresh and light.</p>
+                  <p class="price" data-inr="80">₹80</p>
+                  </li>
+                <li class="menu-item">
+                  <img alt="Cold beverages" class="menu-image" src="C:\Users\LENOVO\OneDrive\Documents\python\coffee website\images\cold-beverages.png"/>
+                  <h3 class="name">Cold Beverages</h3>
+                  <p class="text">Creamy and frothy Cold cofee to make you fresh and light.</p>
+                  <p class="price" data-inr="80">₹80</p>
+                  </li>
+                <li class="menu-item">
+                  <img alt="Refreshment" class="menu-image" src="C:\Users\LENOVO\OneDrive\Documents\python\coffee website\images\refreshment.png"/>
+                  <h3 class="name">Refreshment</h3>
+                  <p class="text">Fruit and icy refreshing drink to make feel refresh.</p>
+                  <p class="price" data-inr="60">₹60</p>
+                  </li>
+                <li class="menu-item">
+                  <img alt="Special Combos" class="menu-image" src="C:\Users\LENOVO\OneDrive\Documents\python\coffee website\images\special-combo.png"/>
+                  <h3 class="name">Special Combos</h3>
+                  <p class="text">your favorite eating and drinking combinations.</p>
+                  <p class="price" data-inr="350">₹350</p>
+                  </li>
+                <li class="menu-item">
+                  <img alt="Dessert" class="menu-image" src="C:\Users\LENOVO\OneDrive\Documents\python\coffee website\images\desserts.png"/>
+                  <h3 class="name">Dessert</h3>
+                  <p class="text">Satiate your palate and take you on a culinary treat.</p>
+                  <p class="price" data-inr="150">₹150</p>
+                  </li>
+                <li class="menu-item">
+                  <img alt="Burger &amp; French Fries" class="menu-image" src="C:\Users\LENOVO\OneDrive\Documents\python\coffee website\images\burger-frenchfries.png"/>
+                  <h3 class="name">Burger &amp; French Fries</h3>
+                  <p class="text">Quick bites to satisfy your small size hunger.</p>
+                  <p class="price" data-inr="130">₹130</p>
+                  </li>
+                <li class="menu-item">
+                  <img alt="Pizza" class="menu-image" src="https://images.all-free-download.com/images/graphiclarge/pizza_hd_picture_6_167274.jpg"/>
+                  <h3 class="name">Pizza</h3>
+                  <p class="text">Delicious cheesy pizzas in various flavors.</p>
+                  <p class="price" data-inr="180">₹180</p>
+                </li>
+                <li class="menu-item">
+                  <img alt="Chicken" class="menu-image" src="https://th.bing.com/th/id/OIP.WxUU7pVJGMF_GcVUm_unbAHaKu?w=115&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"/>
+                  <h3 class="name">Chicken</h3>
+                  <p class="text">Crispy and spicy fried chicken delights.</p>
+                  <p class="price" data-inr="200">₹200</p>
+                </li>
+                <li class="menu-item">
+                  <img alt="smoothy" class="menu-image" src="C:\Users\LENOVO\OneDrive\Documents\python\Coffee Website\images\gallery-3.jpg">
+                  <h3 class="name">Juice</h3>
+                  <p class="text">Delicious sweet and smooth and cool to drink,giving a great relax to body.</p>
+                  <p class="price" data-inr="90">₹90</p>
+                  </li>
+              </ul>
+           </div>
+        </section>
+
+        <!--gallery Section -->
+          <section class="gallery-section" id="Gallery">
+                <div class="section-content">
+                    <h2 class="section-title">Gallery</h2>
+                     <div class="gallery-list">
+                        <div class="gallery-item">
+                          <img alt="Gallery" class="gallery-image" src="C:\Users\LENOVO\OneDrive\Documents\python\coffee website\images\gallery-1.jpg"/>
+                        </div>
+                        <div class="gallery-item">
+                          <img alt="Gallery" class="gallery-image" src="C:\Users\LENOVO\OneDrive\Documents\python\coffee website\images\gallery-2.jpg"/>
+                        </div>
+                        <div class="gallery-item">
+                          <img alt="Gallery" class="gallery-image" src="C:\Users\LENOVO\OneDrive\Documents\python\coffee website\images\gallery-3.jpg"/>
+                        </div>
+                        <div class="gallery-item">
+                          <img alt="Gallery" class="gallery-image" src="C:\Users\LENOVO\OneDrive\Documents\python\coffee website\images\gallery-4.jpg"/>
+                        </div>
+                        <div class="gallery-item">
+                          <img alt="Gallery" class="gallery-image" src="C:\Users\LENOVO\OneDrive\Documents\python\coffee website\images\gallery-5.jpg"/>
+                        </div>
+                        <div class="gallery-item">
+                          <img alt="Gallery" class="gallery-image" src="C:\Users\LENOVO\OneDrive\Documents\python\coffee website\images\gallery-6.jpg"/>
+                        </div>
+                      </div>
+                </div>
+          </section>
+
+          <!-- Testimonials Section -->
+            <section class="testimonials-section" id="Testimonials">
+              <div class="section-content">
+                <h2 class="section-title">Testimonials</h2>
+                  <div class="slider-container swiper">
+                     <div class="slider-wrapper">
+                      <ul class="testimonial-list swiper-wrapper">
+                    <li class="testimonial swiper-slide">
+                        <img alt="User" class="user-image" src="C:\Users\LENOVO\OneDrive\Documents\python\coffee website\images\user-1.jpg"/>
+                        <p class="Feedback">"The coffee here is simply amazing! The aroma and perfectly balanced and rice. will order again.!"</p>
+                        <h3 class="name">Swathi Roy</h3>
+                    </li>
+                    <li class="testimonial swiper-slide">
+                        <img alt="User" class="user-image" src="C:\Users\LENOVO\OneDrive\Documents\python\coffee website\images\user-2.jpg"/>
+                        <p class="Feedback">"Great espresso blend! smooth and bold flavor.fast shipping tool.!"</p>
+                        <h3 class="name">Rahul kim</h3>
+                    </li>
+                    <li class="testimonial swiper-slide">
+                        <img alt="User" class="user-image" src="C:\Users\LENOVO\OneDrive\Documents\python\coffee website\images\user-3.jpg"/>
+                        <p class="Feedback">"Fantastic mocha flavor,Fresh and aromatic. Quick shipping.!"</p>
+                        <h3 class="name">Gowtham kim</h3>
+                    </li>
+                    <li class="testimonial swiper-slide">
+                        <img alt="User" class="user-image" src="C:\Users\LENOVO\OneDrive\Documents\python\coffee website\images\user-4.jpg"/>
+                        <p class="Feedback">"Excellent Quality Fresh beans and quick delivery. Highly recommend.!"</p>
+                        <h3 class="name">siri Smith</h3>
+                    </li>
+                    <li class="testimonial swiper-slide">
+                        <img alt="User" class="user-image" src="C:\Users\LENOVO\OneDrive\Documents\python\coffee website\images\user-5.jpg"/>
+                        <p class="Feedback">"Best decaf I've tried! Smooth and flavorful.Arrived promptly."</p>
+                        <h3 class="name">Anil Nicolas</h3>
+                    </li>
+                </ul>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-slide-button swiper-button-prev"></div>
+                    <div class="swiper-slide-button swiper-button-next"></div>
+                </div>
+              </div>
+            </div>
+            </section>
+
+            <!-- Contact Section -->
+              <section class="contact-section" id="Contact">
+              <h2 class="section-title">Contact </h2>
+                <div class="section-content">
+                  <ul class="contact-info-list">
+                    <li class="contact-info">
+                      <i class="fa-solid fa-location-dot"></i>
+                      <p>Hyderabad,Jubllie-enclave,hitechcity madhapur,</p>
+                    </li>
+                    <li class="contact-info">
+                      <i class="fa-solid fa-envelope"></i>
+                      <p> nallamothugoutham516@gmail.com</p>
+                    </li>
+                    <li class="contact-info">
+                      <i class="fa-solid fa-phone"></i>
+                      <p> 9494245905</p>
+                    </li>
+                    <li class="contact-info">
+                      <i class="fa-solid fa-clock"></i>
+                      <p> monday-friday: 8Am-7Pm</p>
+                    </li>
+                    <li class="contact-info">
+                      <i class="fa-solid fa-clock"></i>
+                      <p> Sunday closed,Saturday eving 3AM-1AM</p>
+                    </li>
+                 </ul>
+                    <form action="#" class="contact-form">
+                      <input class="form-input" placeholder="your name" required="" type="text"/>
+                      <input class="form-input" placeholder="your Email" required="" type="email"/>
+                      <textarea class="form-input" placeholder="your messsage" reguired=""></textarea>
+                      <button class="submit-button">Submit</button>
+                    </form>
+                </div>
+              </section>
+
+              <!-- Footer Section -->
+                <footer class="footer-section">
+            <div class="section-content">
+             <p class="copyright-text">@ 2025 Gowtham Cafe</p>
+                <div class="social-link-list">
+                 <a class="social-link" href="https://www.facebook.com//"><i class="fa-brands fa-facebook"></i></a>
+                 <a class="social-link" href="https://www.instagram.com//"><i class="fa-brands fa-instagram"></i></a>
+                 <a class="social-link" href="https://x.com/i/flow/login"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <p class="policy-text">
+                 <a class="policy-link" href="https://en.wikipedia.org/wiki/Coffee_roasting#References">Privacy Policy</a> | 
+                 <a class="policy-link" href="https://shop.continental.coffee/pages/terms-and-conditions">Terms of Service</a> | 
+                 <span class="Separator">|</span>
+                 <a class="policy-link" href="https://www.kingscoffeeindia.co.in/pages/returns-refund-policy">Refund Policy</a>
+                </p>
+            </div>
+                </footer>
+</main>
+
+            <!--linking Swiper script -->
+                <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+                <!-- linking custom script -->
+                    <script src="script.js"></script>
+    </body>
+ </head>
+</head>
+</html>
+
+
